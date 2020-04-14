@@ -19,7 +19,6 @@
 	transform: translate(0, -25%)
 	font-size: large;
 }
-
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -27,36 +26,16 @@
 .container {
   padding: 2px 16px;
 }
-
-.text  {
-	font-size: large;
-}
-
-.rightdiv{
-	margin-left: 50%; 
-	height: 100vh; 
-	background: #f5f2d0;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-	text-align: center;
-	min-width: 400px;
-	position:relative;
-
-}
-
 .rightcard {
 
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
-	width: 30%;
 	background: #f5f2d0;
-	margin: 12.5%;
-	position: absolute;               
-	top: 5%;                         
-	transform: translate(0, -25%)
-	font-size: large;
-}
+	width:50%;
+   	float:right;
+   	height:100vh;
+   	background: #f5f2d0;
+}	
 
 .button {
   background-color: lightgrey;
@@ -76,10 +55,14 @@
 #one {
    width:50%;
    float:left;
+
 }
 #two {
    width:50%;
    float:right;
+   height:100vh
+   background: #f5f2d0;
+   position:relative;
 }
 @media only screen and (max-width: 767px)
 {
